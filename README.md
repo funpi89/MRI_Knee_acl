@@ -1,5 +1,7 @@
 # MRI_Knee_acl
-
+#
+#使用框架:Pytorch
+#
 # 輸入3種不同切片(Coronal, Axial, Sagittal)的膝蓋MRI突來預判是否膝蓋前十字韌帶撕裂(ACL tear)
 # 資料集: 使用Standford大學公開的MRNet-v1.0資料集
 # 訓練架構: 個別對3種不同的切片(Coronal, Axial, Sagittal)用CNN去訓練,再把3個模型的輸出結合起來用logistic regression 做分類預測
